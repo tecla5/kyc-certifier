@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" href="./favicon.ico?v=2">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style type="text/css">
+      .--intitial--loading {
+        align-items: center;
+        display: flex;
+        font-size: 3em;
+        height: 100vh;
+        justify-content: center;
+        width: 100vw;
+      }
+
+      .closing {
+        background: #a00;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 0.5em;
+        text-align: center;
+      }
+
+      .closing a, .closing a:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="closing">
+      PICOPS will be discontinued as of May 24th due to regulatory changes in the European Union. Feel free to reach out to <a href="mailto:picops@parity.io">picops@parity.io</a> if you have any questions.
+    </div>
+    <div id="app">
+      <div class='--intitial--loading'>Loading...</div>
+    </div>
+  </body>
+</html>
